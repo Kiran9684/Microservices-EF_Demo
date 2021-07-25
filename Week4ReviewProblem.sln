@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{17D8BE70-A302-4182-B14C-C1EEC200F35E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MedicalStore", "MedicalStore\MedicalStore.csproj", "{FC6735B2-C447-4111-AC57-0D85E9605824}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Medicine", "Medicine\Medicine.csproj", "{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GatewayWebAPI", "GatewayWebAPI\GatewayWebAPI.csproj", "{6B40159F-C97B-4553-AF2A-18A0F9595A09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DefaultAuth", "DefaultAuth\DefaultAuth.csproj", "{72054B50-B9AA-409F-AB27-40D82E4AD727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAuth", "BasicAuth\BasicAuth.csproj", "{0F370A09-060F-42B5-A607-C8B3C61FDD30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtRoleBasedAuthentication", "JwtRoleBasedAuthentication\JwtRoleBasedAuthentication.csproj", "{77925EE2-5E91-45E9-A711-17AD72A99FB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC6735B2-C447-4111-AC57-0D85E9605824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6735B2-C447-4111-AC57-0D85E9605824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6735B2-C447-4111-AC57-0D85E9605824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6735B2-C447-4111-AC57-0D85E9605824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B40159F-C97B-4553-AF2A-18A0F9595A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B40159F-C97B-4553-AF2A-18A0F9595A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B40159F-C97B-4553-AF2A-18A0F9595A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B40159F-C97B-4553-AF2A-18A0F9595A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72054B50-B9AA-409F-AB27-40D82E4AD727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72054B50-B9AA-409F-AB27-40D82E4AD727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72054B50-B9AA-409F-AB27-40D82E4AD727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72054B50-B9AA-409F-AB27-40D82E4AD727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F370A09-060F-42B5-A607-C8B3C61FDD30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F370A09-060F-42B5-A607-C8B3C61FDD30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F370A09-060F-42B5-A607-C8B3C61FDD30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F370A09-060F-42B5-A607-C8B3C61FDD30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77925EE2-5E91-45E9-A711-17AD72A99FB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77925EE2-5E91-45E9-A711-17AD72A99FB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77925EE2-5E91-45E9-A711-17AD72A99FB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77925EE2-5E91-45E9-A711-17AD72A99FB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FC6735B2-C447-4111-AC57-0D85E9605824} = {17D8BE70-A302-4182-B14C-C1EEC200F35E}
+		{C699AD0D-4726-4E4D-987A-A0A2FC8AB2B6} = {17D8BE70-A302-4182-B14C-C1EEC200F35E}
+		{77925EE2-5E91-45E9-A711-17AD72A99FB7} = {17D8BE70-A302-4182-B14C-C1EEC200F35E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41E0CF97-0D92-4AC5-9DBD-7A551E205CF9}
+	EndGlobalSection
+EndGlobal
